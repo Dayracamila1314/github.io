@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Estilos/Estilos.css">
+    <title>Smart Mirror</title>
+</head>
+<body>
+
+    <header>
+        <h1>Contactanos!</h1>
+    </header>
+    
+     <nav>
+        <a href="index.html">Introducción de Smart Mirror</a>
+        <a href="acerca.html">Acerca de Smart Mirror</a>
+        <a href="objetivo.html">Objetivo</a>
+        <a href="publicidad.html">Publicidad</a>
+        <a href="contacto.html">Contactanos!</a>
+    </nav>
+
+    <br><br>
+
+    <section class="Formulario">
+        <h1>Pedidos de Smart Mirror</h1>
+        <form action="#" method="POST">
+            <label for="Nombre">Nombre del cliente: </label>
+			<br>
+			<input type="text" name="Nombre">
+			<br><br>
+			<label for="Telefono">Celular: </label>
+			<br>
+			<input type="tel" name="Telefono" placeholder="000-000-00-00" required>
+			<br><br>
+			<label for="correo">Correo: </label>
+			<br>
+			<input type="email" name="correo" placeholder="nickname@correo.com" required>
+			<br><br>
+            <label for="producto">Elige el producto a comprar</label>
+			<br>
+            <select name="producto">
+				<option value="chaqueta">Smart Mirror Básico “Reflejo Inteligente”</option>
+				<option value="mochila">Smart Mirror Premium “Estilo y Conectividad”</option>
+				<option value="sudadera">Smart Mirror Fashion “Tu Asesor de Imagen”</option>
+				<option value="gorra">Smart Mirror Fitness “Tu entrenador en el espejo”</option>
+				<option value="bolso cruzado">Smart Mirror Nightstand “Asistente de noche”</option>
+			</select>
+			<br><br>
+            <label for="cantidad">Cantidad de producto: </label>
+			<br>
+			<input type="cantidad" name="Cantidad" required>
+			<br><br>
+			<label for="entrega">Fecha en la que recogera el pedido: </label>
+			<br>
+			<input type="date" name="Entrega" required>
+			<br><br>
+            <h3>Opción de pago</h3>
+			<label>
+				<input type="radio" name="pago" value="Efectivo">
+				Efectivo
+			</label>
+			<label>
+				<input type="radio" name="pago" value="Tarjeta">
+				Tarjeta
+			</label>
+			<br><br>
+            <h3>Opciones Extra</h3>
+            <label for="extra">¿Se entregará a domicilio? </label>
+			<br>
+			<label>
+				<input type="radio" name="opcion" value="Si">
+				Si
+			</label>
+			<label>
+				<input type="radio" name="opcion" value="No">
+				No
+			</label>
+			<br><br>
+			<label for="notas">Notas del cliente: </label>
+			<br>
+			<textarea name="notas" rows="5" cols="50" placeholder="Escriba aqui sus notas">
+			</textarea>
+			
+
+			<br>
+			<br>
+			<button type="submit">Enviar</button>
+        </form>
+    </section>
+
+	 <footer>
+        <strong>2025 Todos los derechos reservados</strong>
+    </footer>
+
+
+</body>
+</html>
